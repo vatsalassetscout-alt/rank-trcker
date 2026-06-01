@@ -1,6 +1,5 @@
 'use client';
 import { signIn } from 'next-auth/react';
-import { Button } from '@/components/ui/button'; // We'll create this
 
 export default function Home() {
   return (
