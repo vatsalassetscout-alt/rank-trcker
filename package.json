@@ -27,3 +27,11 @@
     "vercel-build": "npm install --legacy-peer-deps && npm run build"
   }
 }
+{
+  "overrides": {
+    "next": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
+  }
+}
